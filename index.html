@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link rel="stylesheet" href="reset.css">
+  <title>Frontend Mentor | Single-page developer portfolio</title>
+</head>
+
+<body>
+
+  <header class="header">
+    <div class="header__logo">
+      <p class="header__logo-text">Luis Kaiseler</p>
+      <nav class="header__nav">
+        <ul class="header__nav-list">
+          <li class="header__nav-item"><a href="https://github.com/"><img src="./assets/images/icon-github.svg" alt="logo github"></a></li>
+          <li class="header__nav-item"><a href="https://www.frontendmentor.io/"><img src="./assets/images/icon-frontend-mentor.svg" alt="logo frontendmentor"></a></li>
+          <li class="header__nav-item"><a href="https://www.linkedin.com/"><img src="./assets/images/icon-linkedin.svg" alt="logo linkedin"></a></li>
+          <li class="header__nav-item"><a href="https://x.com/home/"><img src="./assets/images/icon-twitter.svg" alt="logo twitter"></a></li>
+        </ul>
+      </nav>
+      <div class="header__img"></div>
+    </div>
+
+    <div class="header__intro">
+      <h1 class="header__intro-title">Nice to meet you! I'm Luís Kaiseler.</h1>
+      <div class="header__intro-line"></div>
+      <p class="header__intro-text">Based in Portugal, I'm a front-end developer passionate about building accessible web apps that users love.</p>
+      <div class="header__intro-button">
+        <a class="header__intro-button-link" href="#">CONTACT ME</a>
+        <div class="header__intro-button-line"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="skills">
+      <div class="skills__card">
+        <h2 class="skills__card-title">HTML</h2>
+        <p class="skills__card-text">1 year experience</p>
+      </div>
+      <div class="skills__card">
+        <h2 class="skills__card-title">CSS</h2>
+        <p class="skills__card-text">1 year experience</p>
+      </div>
+      <div class="skills__card">
+        <h2 class="skills__card-title">JavaScript</h2>
+        <p class="skills__card-text">1 year experience</p>
+      </div>
+    </div>
+  </main>
+
+  <section class="projects">
+    <div class="projects__title">
+      <h2 class="projects__title-heading">Projects</h2>
+      <a class="projects__title-link" href="#">CONTACT ME</a>
+    </div>
+    <div class="projects__list">
+      <div class="projects__item">
+        <img class="projects__item-img" src="./assets/images/thumbnail-project-1-small.webp" alt="">
+        <div class="projects__item-details">
+          <h3 class="projects__item-name">DESIGN PORTFOLIO</h3>
+          <div class="projects__item-skills">
+            <p class="projects__item-skill">HTML</p>
+            <p class="projects__item-skill">CSS</p>
+          </div>
+          <div class="projects__item-links">
+            <a class="projects__item-link" href="#">VIEW PROJECT</a>
+            <a class="projects__item-link" href="#">VIEW CODE</a>
+          </div>
+        </div>
+      </div>
+      <div class="projects__item">
+        <h3 class="projects__item-name">E-LEARNING LANDING PAGE</h3>
+        <div class="projects__item-skills">
+          <p class="projects__item-skill">HTML</p>
+          <p class="projects__item-skill">CSS</p>
+        </div>
+        <div class="projects__item-links">
+          <a class="projects__item-link" href="#">VIEW PROJECT</a>
+          <a class="projects__item-link" href="#">VIEW CODE</a>
+        </div>
+      </div>
+      <div class="projects__item">
+        <h3 class="projects__item-name">TODO WEB APP</h3>
+        <div class="projects__item-skills">
+          <p class="projects__item-skill">HTML</p>
+          <p class="projects__item-skill">CSS</p>
+        </div>
+        <div class="projects__item-links">
+          <a class="projects__item-link" href="#">VIEW PROJECT</a>
+          <a class="projects__item-link" href="#">VIEW CODE</a>
+        </div>
+      </div>
+      <div class="projects__item">
+        <h3 class="projects__item-name">ENTERTAINMENT WEB APP</h3>
+        <p class="projects__item-skill">HTML</p>
+        <p class="projects__item-skill">CSS</p>
+        <p class="projects__item-skill">JAVASCRIPT</p>
+        <a class="projects__item-link" href="#">VIEW PROJECT</a>
+        <a class="projects__item-link" href="#">VIEW CODE</a>
+      </div>
+      <div class="projects__item">
+        <h3 class="projects__item-name">MEMORY GAME</h3>
+        <p class="projects__item-skill">HTML</p>
+        <p class="projects__item-skill">CSS</p>
+        <p class="projects__item-skill">JAVASCRIPT</p>
+        <a class="projects__item-link" href="#">VIEW PROJECT</a>
+        <a class="projects__item-link" href="#">VIEW CODE</a>
+      </div>
+      <div class="projects__item">
+        <h3 class="projects__item-name">ART GALLERY SHOWCASE</h3>
+        <p class="projects__item-skill">HTML</p>
+        <p class="projects__item-skill">CSS</p>
+        <p class="projects__item-skill">JAVASCRIPT</p>
+        <a class="projects__item-link" href="#">VIEW PROJECT</a>
+        <a class="projects__item-link" href="#">VIEW CODE</a>
+      </div>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <h2 class="footer__title">Contact</h2>
+    <p class="footer__text">I would love to hear about your project and how I could help. Please fill in the form, and I'll get back to you as soon as possible.</p>
+    <form class="footer__form" method="post">
+      <input type="text" id="name" name="name" placeholder="name" autocomplete="name">
+      <input type="email" id="email" name="email" placeholder="Email">
+      <textarea id="message" name="message" placeholder="Message"></textarea>
+      <button class="footer__form-button">SEND MESSAGE</button>
+    </form>
+    <p class="footer__credit">Luis Kaiseler</p>
+    <nav class="footer__nav">
+      <ul class="footer__nav-list">
+        <li><a href="https://github.com/"><img src="./assets/images/icon-github.svg" alt="logo github"></a></li>
+        <li><a href="https://www.frontendmentor.io/"><img src="./assets/images/icon-frontend-mentor.svg" alt="logo frontendmentor"></a></li>
+        <li><a href="https://www.linkedin.com/"><img src="./assets/images/icon-linkedin.svg" alt="logo linkedin"></a></li>
+        <li><a href="https://x.com/home/"><img src="./assets/images/icon-twitter.svg" alt="logo twitter"></a></li>
+      </ul>
+    </nav>
+  </footer>
+
+</body>
+
+</html>
